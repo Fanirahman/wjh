@@ -288,4 +288,11 @@
         $('.js-modal2').removeClass('show-modal2');
     });
 
+    function buyNow() {
+        // Add your purchase or redirection logic here
+        console.log('Button clicked! Perform purchase or redirection.');
+        // Example: Redirect to a link
+        window.location.href = "https://www.patreon.com/WorldJourneyHandbook/shop/4-in-1-limited-edition-bundles-must-in-216262?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=productshare_fan&utm_content=join_link";
+    }
+    
 })(jQuery);
